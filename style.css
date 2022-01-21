@@ -1,16 +1,62 @@
-.jowel{
-    height: 80px !important;
+.navbar{
+    padding: 0 !important;
+}
+.image-fluid{
+    height: 80px;
+}
+
+
+.carousel-inner{
+    width:100%;
+    max-height: 400px !important;
+}
+.carousel-caption{
+    top:30% !important;
 }
 .heading-1{
-    color: rgb(253, 253, 253);
-
+    color: seashell;
 }
 .heading-2{
-    color: coral;
-
+    color: yellowgreen;
+}
+.heading-3{
+    color: tomato;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
    
-.heading-3{
-    color: rgb(148, 228, 228);
-   
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+    filter: invert(0) grayscale(255) !important;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #fff !important;
+}
+.custom-class p{
+    text-align: justify;
+}
+.custom-background{
+    background-color: rgb(69, 100, 209);
+    color: cornsilk;
+}
+.icon-color i{
+    color:rgba(22, 49, 100, 0.89);
+}
+.card:hover i{
+    transform: rotate(360deg);
+    transition: transform .5s ease-in-out;
+    color: rgb(60, 12, 88);
+}
+.own-shadow {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+.card:hover{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    cursor: pointer;
+}
+.card:hover h5, .card:hover p{
+    color: dodgerblue;
 }
