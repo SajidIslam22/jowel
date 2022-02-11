@@ -37,10 +37,7 @@
 .custom-class p{
     text-align: justify;
 }
-.custom-background{
-    background-color: rgb(69, 100, 209);
-    color: cornsilk;
-}
+
 .icon-color i{
     color:rgba(22, 49, 100, 0.89);
 }
@@ -58,4 +55,17 @@
 }
 .card:hover h5, .card:hover p{
     color: dodgerblue;
+}
+.cssd{
+    background-color: rgb(22, 20, 20);
+}
+.cssd{
+    background-color: rgba(31, 27, 27, 0.746);
+
+}
+.list-group .list-group-item::before{
+    content: "\f061";
+    font-family: "Font Awesome 5 Pro";
+    margin-right: 5px;
+    font-weight: 500;
 }
